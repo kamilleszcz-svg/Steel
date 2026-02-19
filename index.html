@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Droga na Mecz — beat'em up</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="layout">
+      <section class="panel">
+        <h1>Droga na Mecz</h1>
+        <p>
+          Prototyp gry w stylu klasycznego beat'em up: kibic przedziera się przez
+          miasto, by dotrzeć na stadion.
+        </p>
+        <ul>
+          <li><strong>Ruch:</strong> A / D</li>
+          <li><strong>Skok:</strong> W</li>
+          <li><strong>Cios:</strong> Spacja</li>
+          <li><strong>Restart po porażce:</strong> R</li>
+        </ul>
+        <p id="status">Dotrzyj do stadionu i pokonaj przeszkadzających chuliganów!</p>
+      </section>
+      <section class="game-wrap">
+        <canvas id="game" width="960" height="540" aria-label="Pole gry"></canvas>
+      </section>
+    </main>
+
+    <script src="game.js"></script>
+  </body>
+</html>
